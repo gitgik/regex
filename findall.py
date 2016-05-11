@@ -22,3 +22,6 @@ print res
 p = re.compile(r"(\w+) (\w+)")
 rv = p.findall("Hello world, i lived")
 print rv
+
+# Using unicode characters
+print re.findall(ur"\w+", u"这是一个例子", re.UNICODE)
