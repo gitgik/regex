@@ -25,3 +25,6 @@ print rv
 
 # Using unicode characters
 print re.findall(ur"\w+", u"这是一个例子", re.UNICODE)
+
+# using named groups inside pattern itself
+patt = re.compile(r"(?P<word>\w+) (?P=word)")
