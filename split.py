@@ -3,8 +3,6 @@
 1. re.split(string, maxsplit=0),
 This string split is based on the matches of the given pattern.
 Returns a list of elements that match the splitting pattern.
-
-2. re.sub,
 """
 import re
 
