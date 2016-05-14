@@ -32,6 +32,19 @@ But before this, first things first:
 | \w             | This matches alphanumeric character [a-zA-Z0-9_]         |
 | \W             | This matches any non-alphanumeric character [^a-zA-Z0-9] |
 
+
+#### Benchmarking
+Benchmark.py measures the time taken for a regex to execute. Also, test your regex with different inputs because with small ones, regex is fast enough.
+
+To benchmark, go to your python prompt and run this:
+```
+    >>> from benchmark import test
+    >>> # define your regex in a function here
+    >>> test(<function-name>, "<text/string-input>")
+```
+
 ####PS
 
 Ensure you read the docstrings and comments to understand how the code works.
+
+
