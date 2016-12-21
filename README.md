@@ -12,7 +12,7 @@ But before this, first things first:
 1. Clone the flan to your local as such:
 
 ```
-    $ git clone https://github.com/andela-ggikera/regex.git
+    $ git clone https://github.com/gitgik/regex.git
 ```
 
 2. Run it on your local command line
