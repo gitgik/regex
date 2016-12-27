@@ -7,5 +7,7 @@ import re
 
 pattern = re.compile('\\\\')
 another_pattern = re.compile(r'\\')
-print pattern.match("\\author")
-print another_pattern.match("\\at")
+result = pattern.match("\\author")
+print result.group()
+res = another_pattern.match("\\at")
+print res.group()
