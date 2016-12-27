@@ -18,12 +18,12 @@ print another_one
 
 # optional pos parameter specifies where to start searching
 pattern = re.compile(r'html')
-pattern.match('__html', 2)
-print pattern
+result = pattern.match('__html', 2)
+print result.group() # prints html
 
 # we can use slicing to match the characters
 slicer = pattern.match("__html"[2:])
 # or use the endpos to specify the last index of the string to check.
 sliced = pattern.match("html", 0, 4)
 some_slice = pattern.match("html"[:4])
-print slicer, sliced, some_slice
+print slicer.group(), sliced.group(), some_slice.group()
