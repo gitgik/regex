@@ -21,6 +21,11 @@ But before this, first things first:
    $ python <filename>.py
 ```
 
+3. Play around!
+
+Feel free to play around with the code by copying the content and running it directly in the python interpretor.
+
+
 #### Tags to use
 | Element        | Description                                              |
 |:--------------:|:--------------------------------------------------------:|
