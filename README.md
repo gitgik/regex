@@ -1,5 +1,5 @@
 # regex
-All things regular expression: implemented in python.
+Some regular expressions: implemented in python.
 
 #### Purpose
 Regular expressions are simple yet many programmers fear them. You just have to understand them and what they do to see their vast benefits in computing.
@@ -64,8 +64,8 @@ To benchmark, go to your python prompt and run this:
     >>> test(<function-name>, "<text/string-input>")
 ```
 
-####PS
+#### PS
 
-Ensure you read the docstrings and comments to understand how the code works.
+Please read the docstrings and comments to understand how the code works.
 
 
